@@ -27,7 +27,7 @@ jobs:
           - name: Deploy  
             uses: JamesIves/github-pages-deploy-action@v4
             with:
-             branch: dev   
+             branch: main  
              folder: build
              token: ${{ secrets.WORKFLOW}}
             
