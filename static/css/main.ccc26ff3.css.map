@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.ccc26ff3.css","mappings":"AAAA,cAAc,CACd,oBAAoB,CACpB,mBAAmB,CAGnB,SACE,2DACA","sources":["index.css"],"sourcesContent":["@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n\n.navlink{\n  @apply text-black text-xl font-medium hover:text-orange-500;\n  }"],"names":[],"sourceRoot":""}
