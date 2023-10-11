@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../NavBar";
-
+import 'tailwindcss/tailwind.css';
 export const TmListing = () => {
   const [tms, setTms] = useState([]); // State for user data
   // const [refreshPage, setRefreshPage] = useState(false);

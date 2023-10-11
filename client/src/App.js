@@ -12,7 +12,7 @@ import Login from './components/Login/LoginForm';
 import AddStudentForm from './components/Students/AddStudent';
 import StudentListing from './components/Students/StudentListing';
 import EditStudentForm from './components/Students/EditStudent';
-
+import 'tailwindcss/tailwind.css';
 
 function App() {
   return (

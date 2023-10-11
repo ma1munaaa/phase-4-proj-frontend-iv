@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import * as yup from "yup";
-
+import 'tailwindcss/tailwind.css';
 const AddStudentForm = () => {
   const navigate = useNavigate();
 

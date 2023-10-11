@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import * as yup from "yup";
-
+import 'tailwindcss/tailwind.css';
 const EditStudentForm = () => {
   const { id } = useParams();
   const [studentData, setStudentData] = useState({});

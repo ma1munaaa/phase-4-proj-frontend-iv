@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PieChart from "./PieChart";
 import Navbar from "../NavBar";
+import 'tailwindcss/tailwind.css';
 
 const Dashboard = () => {
   const [totalCheckIns, setTotalCheckIns] = useState(0);

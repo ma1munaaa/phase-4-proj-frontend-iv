@@ -2,7 +2,7 @@ import React from "react";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import { Link, useNavigate } from "react-router-dom";
-
+import 'tailwindcss/tailwind.css';
 const RegistrationForm = () => {
   const validationSchema = yup.object().shape({
     Name: yup.string().required("Name is required"),

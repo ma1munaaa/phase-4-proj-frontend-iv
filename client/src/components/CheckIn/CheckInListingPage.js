@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import * as yup from "yup";
 import { Link } from "react-router-dom";
 import Navbar from "../NavBar";
-
+import 'tailwindcss/tailwind.css';
 
 
 export const CheckInListing = () => {

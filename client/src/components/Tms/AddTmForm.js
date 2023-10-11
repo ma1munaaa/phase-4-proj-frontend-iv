@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom"; // Updated import
 import { useFormik } from "formik";
 import * as yup from "yup";
-
+import 'tailwindcss/tailwind.css';
 const AddTmForm = () => {
   const navigate = useNavigate(); // Use useNavigate to get the navigation function
 

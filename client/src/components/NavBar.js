@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-
+import 'tailwindcss/tailwind.css';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
