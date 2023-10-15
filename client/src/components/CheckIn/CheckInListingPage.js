@@ -14,7 +14,7 @@ export const CheckInListing = () => {
 
   useEffect(() => {
     console.log("FETCH!");
-    fetch("https://checkin-system-47hr.onrender.com/checkin")
+    fetch("https://checkin-system-47hr.onrender.com/checkins")
       .then((res) => res.json())
       .then((data) => {
         setCheckins(data);
