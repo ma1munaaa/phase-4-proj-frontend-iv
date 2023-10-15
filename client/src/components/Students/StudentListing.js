@@ -7,7 +7,7 @@ export const StudentListing = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("/students")
+    fetch("https://checkin-system-47hr.onrender.com/students")
       .then((res) => res.json())
       .then((data) => {
         setStudents(data);

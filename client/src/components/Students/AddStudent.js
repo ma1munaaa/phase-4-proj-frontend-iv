@@ -27,7 +27,7 @@ const AddStudentForm = () => {
    
 onSubmit: async (values) => {
     try {
-      const response = await fetch("/add-student", {
+      const response = await fetch("https://checkin-system-47hr.onrender.com/add-student", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

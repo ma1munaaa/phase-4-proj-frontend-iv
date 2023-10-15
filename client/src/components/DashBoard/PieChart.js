@@ -13,7 +13,7 @@ const PieChart = () => {
 
     function fetchData() {
       // Fetch the data from your Flask API
-      fetch('/room-data')
+      fetch('https://checkin-system-47hr.onrender.com/room-data')
         .then((response) => response.json())
         .then((data) => {
           // Format the data for the pie chart

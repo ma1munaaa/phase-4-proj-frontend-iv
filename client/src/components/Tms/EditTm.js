@@ -34,7 +34,7 @@ const EditTmForm = () => {
     },
     validationSchema,
     onSubmit: (values) => {
-      fetch(`/tms/${id}`, {
+      fetch(`https://checkin-system-47hr.onrender.com/tms/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

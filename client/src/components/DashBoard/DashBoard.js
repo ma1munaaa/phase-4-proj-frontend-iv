@@ -7,7 +7,7 @@ const Dashboard = () => {
   const [totalCheckIns, setTotalCheckIns] = useState(0);
 
   useEffect(() => {
-    fetch("/total-checkins")  // Replace with the correct URL of your Flask route
+    fetch("https://checkin-system-47hr.onrender.com/total-checkins")  // Replace with the correct URL of your Flask route
       .then((response) => response.json())
       .then((data) => {
         setTotalCheckIns(data.total_checkins);

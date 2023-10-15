@@ -19,7 +19,7 @@ const EditStudentForm = () => {
   });
 
   useEffect(() => {
-    fetch(`/students/${id}`)
+    fetch(`https://checkin-system-47hr.onrender.com/students/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setStudentData(data);

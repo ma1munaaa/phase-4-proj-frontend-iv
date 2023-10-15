@@ -9,7 +9,7 @@ export const TmListing = () => {
 
   useEffect(() => {
     console.log("FETCH!");
-    fetch("/tms") 
+    fetch("https://checkin-system-47hr.onrender.com/tms") 
       .then((res) => res.json())
       .then((data) => {
         setTms(data);

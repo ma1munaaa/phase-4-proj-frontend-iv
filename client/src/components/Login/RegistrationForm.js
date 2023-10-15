@@ -22,7 +22,7 @@ const RegistrationForm = () => {
 
   const onSubmit = async (values) => {
     try {
-      const response = await fetch("/register", {
+      const response = await fetch("https://checkin-system-47hr.onrender.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -20,7 +20,7 @@ const EditCheckInForm = () => {
   });
 
   useEffect(() => {
-    fetch(`/checkins/${id}`)
+    fetch(`https://checkin-system-47hr.onrender.com/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setCheckInData(data);

@@ -19,7 +19,7 @@ const AddTmForm = () => {
     },
     validationSchema: formSchema,
     onSubmit: (values) => {
-      fetch("/add-tm", {
+      fetch("https://checkin-system-47hr.onrender.com/add-tm", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
