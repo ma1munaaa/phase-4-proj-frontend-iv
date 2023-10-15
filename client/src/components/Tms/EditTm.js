@@ -16,7 +16,7 @@ const EditTmForm = () => {
   });
 
   useEffect(() => {
-    fetch(`/tms/${id}`)
+    fetch(`https://checkin-system-47hr.onrender.com/tms/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setTmData(data);

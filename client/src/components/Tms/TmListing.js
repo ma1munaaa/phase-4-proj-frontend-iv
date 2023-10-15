@@ -31,7 +31,7 @@ export const TmListing = () => {
   };
 
   const handleDeleteClick = async (id) => {
-    const response = await fetch(`/tms/${id}`, {
+    const response = await fetch(`https://checkin-system-47hr.onrender.com/tms/${id}`, {
       method: "DELETE",
     });
     if (response.ok) {

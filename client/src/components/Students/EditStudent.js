@@ -40,7 +40,7 @@ const EditStudentForm = () => {
     },
     validationSchema,
     onSubmit: (values) => {
-      fetch(`/students/${id}`, {
+      fetch(`https://checkin-system-47hr.onrender.com/students/${id}`, { 
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

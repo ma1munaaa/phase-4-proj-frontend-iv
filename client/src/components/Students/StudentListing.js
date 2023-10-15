@@ -28,7 +28,7 @@ export const StudentListing = () => {
   };
 
   const handleDeleteClick = async (id) => {
-    const response = await fetch(`/students/${id}`, {
+    const response = await fetch(`https://checkin-system-47hr.onrender.com/students/${id}`, {
       method: "DELETE",
     });
     if (response.ok) {
