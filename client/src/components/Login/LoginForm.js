@@ -32,7 +32,7 @@ const Login = () => {
         };
   
         // Example: Fetch a protected route
-        const protectedRouteResponse = await fetch('/protected-route', {
+        const protectedRouteResponse = await fetch('https://checkin-system-47hr.onrender.com/protected-route', {
           method: 'GET',
           headers: headers,
         });

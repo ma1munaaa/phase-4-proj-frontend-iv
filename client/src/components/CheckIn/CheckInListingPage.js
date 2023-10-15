@@ -34,7 +34,7 @@ export const CheckInListing = () => {
     },
     validationSchema: formSchema,
     onSubmit: (values, { resetForm }) => { // Destructure resetForm from formik
-      fetch("/checkins", {
+      fetch("https://checkin-system-47hr.onrender.com/checkins", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -64,7 +64,7 @@ export const CheckInListing = () => {
   };
 
   const handleDeleteClick = async (id) => { // Define the 'id' variable as a parameter
-    const response = await fetch(`/checkins/${id}`, {
+    const response = await fetch(`https://checkin-system-47hr.onrender.com/checkins/${id}`, {
       method: "DELETE",
     });
     if (response.ok) {

@@ -37,7 +37,7 @@ const EditCheckInForm = () => {
     },
     validationSchema,
     onSubmit: (values) => {
-      fetch(`/checkins/${id}`, {
+      fetch(`https://checkin-system-47hr.onrender.com/checkins/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

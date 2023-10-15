@@ -51,7 +51,7 @@ const EditStudentForm = () => {
         .then((data) => {
           setStudentData(data);
           setFormSubmitted(true);
-          navigate("https://checkin-system-47hr.onrender.com/students");
+          navigate("/students");
         })
         .catch((error) => {
           console.error("Error updating student:", error);
