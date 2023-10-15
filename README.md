@@ -1,49 +1,71 @@
-# Check-In System
+# Moringa Check-in System
 
-The Check-In System is a web application for managing check-ins, students, teachers, and administrators. It allows users to check in, view check-in data, manage students and teachers, and perform administrative tasks. This document provides an overview of the project's structure, features, and instructions for running the application.
-
-## Table of Contents
-
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-
-
-## Usage
-1. User Registration: Users can register for an account with their name, phone number, email, ID number, and password.
-
-2. User Login: Registered users can log in using their email and password.
-
-3. Check-In: Users can check in by providing their name and room number.
-
-4. Dashboard: The dashboard displays statistics, including the total number of check-ins and room occupancy.
-
-5. Manage Students: Admin users can manage student records, including adding, editing, and deleting student profiles.
-
-6. Manage Teachers (TMs): Admin users can manage teacher (TM) records, including adding, editing, and deleting TM profiles.
-
-7. JWT Authentication: The application uses JWT (JSON Web Tokens) for user authentication.
+The Moringa Check-in System is a robust web application developed to facilitate efficient attendance management and enhance administrative processes at Moringa School. This comprehensive system offers a wide array of features catering to students, teachers, administrators, and staff members, ensuring seamless attendance tracking, data analysis, and user management.
 
 ## Features
-- User Registration and Authentication
-- Check-In and Check-Out
-- Dashboard with Statistics
-- User Role Management (Admin, Teacher, Student)
-- CRUD Operations for Students and TMs
-- JWT Token-Based Authentication
-- Responsive Web Design
+
+### 1. **Dashboard:**
+   - View real-time analytics displaying the number of check-ins across all rooms in the school.
+   - Access graphical representations of attendance data for quick insights into attendance patterns.
+
+### 2. **Room Check-ins:**
+   - Digitally check in and out of rooms, allowing for precise tracking of student and staff movements.
+   - Ensure accurate attendance records with timestamped entries.
+
+### 3. **Technical Mentor (TM) Management:**
+   - **Add TM:** Administrators can add new team members, providing them with unique login credentials and roles.
+   - **Edit TM:** Modify TM details such as names, roles, and contact information for accurate record-keeping.
+   - **Delete TM:** Remove team members who no longer require access to the system, ensuring data security.
+
+### 4. **Student Management:**
+   - **Add Student:** Admins have the ability to add new students, assigning them to specific classes and rooms.
+   - **Edit Student:** Modify student information, such as names, IDs, and contact details, ensuring up-to-date records.
+   - **Delete Student:** Remove students who have left the institution, maintaining an organized student database.
+
+### 5. **User Authentication:**
+   - **Login:** Users (TMs, teachers, and administrators) can securely log into their accounts, ensuring data privacy.
+   - **Registration:** New users can register for accounts, providing necessary details for authentication and authorization.
+
+## Getting Started
+
+### Prerequisites
+
+- Ensure you have Node.js and npm installed on your local machine.
+- Set up a MongoDB database and update the configuration in the `.env` file.
+- Create necessary API keys or secrets for secure data transmission if applicable.
+
+### Installation
+
+1. Clone the repository: `git clone https://github.com/ma1munaaa/phase-4-proj-frontend-iv.git`
+2. Navigate to the project directory: `cd phase-4-proj-frontend-iv`
+3. Install dependencies: `npm install`
+4. Configure environment variables: Create a `.env` file based on `.env.example` and fill in the required details.
+5. Start the application: `npm start`
+6. Access the application in your browser at `http://localhost:3000`
 
 ## Contributing
-Contributions are welcome! If you would like to contribute to the project, please follow these steps:
 
+We encourage contributions from developers of all levels! To contribute to the Moringa Check-in System:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-yourfeaturename`
+3. Implement your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature-yourfeaturename`
+5. Create a pull request explaining your changes and their benefits.
 
 ## License
-This project is licensed under the MIT License.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
-## Contributors:
-- Eric Muthui
-- Joyce Wachira
-- Maimuna Mohamud
-- Ian Imbuki
+## Acknowledgements
+
+We extend our heartfelt gratitude to the following contributors for their invaluable contributions to the Moringa Check-in System:
+
+- **Eric Muthui:**
+- **Joyce Wachira:**
+- **Ian Imbuki:** 
+- **Maimuna Mohamud:** 
+
+
+
