@@ -51,14 +51,15 @@ const EditStudentForm = () => {
         .then((data) => {
           setStudentData(data);
           setFormSubmitted(true);
-          navigate("/students");
+          navigate("https://checkin-system-47hr.onrender.com/students");
         })
         .catch((error) => {
           console.error("Error updating student:", error);
           alert("An error occurred while updating the student.");
         });
     },
-  });
+ 
+});
 
   return (
     <div className="mx-auto">
